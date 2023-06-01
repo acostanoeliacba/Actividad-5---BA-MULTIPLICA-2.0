@@ -1,0 +1,50 @@
+*{
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.contenedor div{
+    padding: 20px;
+    border: 1px solid #0400ff;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.contenedor button{
+    padding: 8px 18px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.comprar{
+    padding: 12px 42px;
+    margin: 50px;
+    text-align: center;
+}
+
+.resetear{
+    padding: 12px 42px;
+    text-align: center;
+}
+
+.mostrarCompra{
+    text-align: center;
+}
+
+.botones{
+    text-align: center;
+}
+
